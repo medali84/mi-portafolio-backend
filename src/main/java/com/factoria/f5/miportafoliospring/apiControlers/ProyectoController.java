@@ -17,7 +17,7 @@ import java.util.Map;
 
 
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://mi-portafolio-backend-production.up.railway.app/api/v1/proyectos")
 @RestController
 @RequestMapping(path = "api/v1/proyectos")
 public class ProyectoController {
